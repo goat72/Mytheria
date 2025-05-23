@@ -24,8 +24,12 @@
             border-radius: 50px;
             border: none;
             cursor: pointer;
-            transition: all 0.3s ease;
             text-shadow:  0 0 5px #00f, 0 0 10px #00f;
+            transition: transform 0.3s ease;
+            }
+
+            .button:hover {
+            transform: scale(1.1);
             }
 
          h1{
